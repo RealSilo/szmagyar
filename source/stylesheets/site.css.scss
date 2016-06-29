@@ -1,0 +1,132 @@
+@charset "utf-8";
+@import "normalize";
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+
+$white: #FFFFFF;
+
+body {
+  background: $white;
+  text-align: center;
+  font-family: "adobe-caslon-pro-1","adobe-caslon-pro-2", "Lato", "Helvetica Neue", sans-serif;
+  font-size: 1.8em;
+}
+
+//HEADER FOOTER + ALL
+#header, #footer, #main-container {
+  padding: 20px 70px 0px 70px;
+}
+
+#inner-container {
+  padding: 20px 20px 20px 20px;
+}
+
+.navbar-default {
+  background-color: $white;
+  font-size: 16px;
+  border: 0px;
+}
+
+#header {
+  .navbar-left {
+    padding-top:5px;
+    font-size: 25px;
+    font-family: "Oswald", sans-serif;
+    background-color: black;
+    a {
+      color: $white;
+    }
+  }
+}
+
+#footer {
+  .navbar-left {
+    vertical-align: middle;
+    li {
+      height: 50px;
+      vertical-align: middle;
+    }
+  }
+}
+
+.underlined {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 3px solid transparent;    
+    //width: 0px;
+    transition: 0.4s ease;
+    white-space: nowrap;
+    &:hover {
+      border-bottom: 3px solid black;
+      //width:200px;
+    }
+}
+
+.page-name {
+  padding-bottom: 20px;
+}
+
+//INDEX
+.profile-picture img {
+  //height: 14.75em;
+  border-radius: 50%;
+}
+
+.intro-text {
+  text-align: left;
+}
+
+//LEARNING
+
+.learning-intro-row {
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+.book-title-row {
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.book-row {
+  padding-bottom: 50px;
+}
+
+.book {
+  font-size: 0.8em;
+  .book-image {
+    height: 250px;
+  }
+  .title-author {
+    padding-top: 10px;
+  }
+  .description {
+    padding-top: 10px;
+  }
+}
+
+//PROJECTS
+
+.projects {
+  padding-bottom: 20px;
+}
+
+.project-intro-row {
+  text-align: left;
+}
+
+.project-type {
+  padding-bottom: 20px;
+}
+
+.tools {
+  padding-top:10px;
+  padding-bottom:20px;
+}
+
+.tool-row {
+  text-align: left;
+}
+

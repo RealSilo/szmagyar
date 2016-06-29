@@ -1,0 +1,17 @@
+- title: The Well Grounded Rubyist
+  author: David A. Black
+  image: well_grounded_rubyist_cover.jpg
+  description: It's a pretty amazing and detailed Ruby book which helps to get a deeper understanding of how Rails works under the hood.
+  link: https://www.amazon.com/Well-Grounded-Rubyist-David-Black/dp/1617291692
+
+- title: Practical Object Oriented Design in Ruby
+  author: Sandi Metz
+  image: "poodr_cover.jpg"
+  description: "Metz can boil down even the most complex topics to the underlying principles. She explains in a simple way how to apply OOP principles to have a maintainable and changeable codebase."
+  link: "https://www.amazon.com/Practical-Object-Oriented-Design-Ruby-Addison-Wesley-ebook/dp/B0096BYG7C"
+
+- title: Rails Antipatterns
+  author: Chad Pytel
+  image: "rails_antipatterns_cover.jpg"
+  description: "The book introduces the most common Rails antipatterns and explains how to avoid them. For people who are new to Rails this book will help a lot to improve their Rails skills."
+  link: "https://www.amazon.com/Rails-AntiPatterns-Refactoring-Addison-Wesley-Professional/dp/0321604814"

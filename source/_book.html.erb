@@ -1,0 +1,15 @@
+<div class="col-md-4">
+  <div class="book">
+    <div>
+      <% link_to book["link"], target: "_blank" do %>
+        <%= image_tag book["image"], class: "book-image", alt: '#{book["title"]} image', title: '#{book["title"]} image' %>
+      <% end %>
+    </div>
+    <div class="title-author">
+      <%= book["title"] %> by <%= book["author"] %>
+    </div>
+    <div class="description">
+      <%= book["description"] %>
+    </div>
+  </div>
+</div>

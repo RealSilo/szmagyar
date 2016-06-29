@@ -1,0 +1,47 @@
+---
+title: Szilard Magyar
+---
+
+<div class="container-fluid" id="main-container">
+  <div class="container-fluid" id="inner-container">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        <div class="row learning-intro-row">
+          <div class="col-md-12">
+            <h3 class="page-name">LEARNING</h3>
+            <p>The main topics of my interest are web/mobile development, startups, psychology, networks (both virtual and personal), technology (software and structural engineering), distribution (sales and marketing) and education. I truly believe that all these fields are connected and technology should make people's life easier not harder.</p>
+
+            <p>Here is a <u><%= link_to "LIST", "https://docs.google.com/spreadsheets/d/1wZkQV6TI6sy2VqXTIVE4pA9y-jGM6m6mpaSS-TVVP-w/edit#gid=0", target: "_blank" %></u> to the books, blogs and courses I've finished or planning to consume. To avoid the paradox of choice go for all the books that are rated 5+. Regardless what kind of things you are interested in reading those books will definitely help you down the road. In case of you don't want to search them in the list I included my favorite books on business and coding below.</p>
+          </div>
+        </div>
+
+        <div class="row book-title-row">
+          <div class="col-md-12">
+            <h4><u>BUSINESS BOOKS</u></h4>
+          </div>
+        </div>
+        <% data["business_books"].each_slice(3) do |books_for_row| %>
+          <div class="row book-row">
+            <% books_for_row.each do |book| %>
+              <%= partial "book", locals: { book: book } %>
+            <% end %>
+          </div>
+        <% end %>
+
+        <div class="row book-title-row">
+          <div class="col-md-12">
+            <h4><u>CODING BOOKS</u></h4>
+          </div>
+        </div>
+        
+        <% data["coding_books"].each_slice(3) do |books_for_row| %>
+          <div class="row book-row">
+            <% books_for_row.each do |book| %>
+              <%= partial "book", locals: { book: book } %>
+            <% end %>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>
