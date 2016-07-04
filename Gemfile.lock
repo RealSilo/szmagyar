@@ -149,6 +149,7 @@ GEM
     middleman-sprockets (4.0.0)
       middleman-core (~> 4.0)
       sprockets (>= 3.0)
+    mime-types (2.99.2)
     mini_portile2 (2.0.0)
     minitest (5.9.0)
     multi_json (1.12.1)
@@ -200,6 +201,7 @@ DEPENDENCIES
   middleman-livereload
   middleman-s3_sync (~> 4.0, >= 4.0.3)
   middleman-sprockets (~> 4.0)
+  mime-types
   rails-assets-jquery!
   rails-assets-moment!
 

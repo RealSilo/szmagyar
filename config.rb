@@ -57,4 +57,10 @@ activate :s3_sync
 
 activate :bootstrap_navbar
 
+activate :google_analytics do |ga|
+  ga.tracking_id = ENV['GOOGLE_ANALYTICS_TRACKING_ID'] # Replace with your property ID.
+  #ga.domain_name = 'szmagyar.com'
+  ga.minify = true
+end
+
 set :fonts_dir,  "fonts-folder"
