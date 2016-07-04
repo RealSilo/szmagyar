@@ -55,11 +55,19 @@ end
 activate :dotenv
 activate :s3_sync
 
+activate :cloudfront do |cf|
+  cf.access_key_id = ENV['AWS_ACCESS_KEY_ID']
+  cf.secret_access_key = ENV['AWS_SECRET_ACCESS_KEY']
+  cf.distribution_id = ENV['CLOUDFRONT_DISTRIBUTION_ID']
+  cf.after_build = true
+end
+
 activate :bootstrap_navbar
 
 activate :google_analytics do |ga|
-  ga.tracking_id = ENV['GOOGLE_ANALYTICS_TRACKING_ID'] # Replace with your property ID.
+  ga.tracking_id = ENV['GOOGLE_ANALYTICS_TRACKING_ID']
   #ga.domain_name = 'szmagyar.com'
+  ga.development = false
   ga.minify = true
 end
 
