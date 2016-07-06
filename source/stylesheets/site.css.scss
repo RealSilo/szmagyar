@@ -30,6 +30,7 @@ body {
 #header {
   .navbar-left {
     padding-top:5px;
+    padding-bottom:5px;
     font-size: 25px;
     font-family: "Oswald", sans-serif;
     background-color: black;
@@ -74,8 +75,22 @@ body {
   border-radius: 50%;
 }
 
+.index-main-row {
+  padding-top:25px;
+  padding-bottom:130px;
+}
+
 .intro-text {
-  text-align: left;
+  text-align: justify;
+  p {
+    padding-top:15px;
+  }
+  .main-intro-text
+  {
+    .headline {
+      font-size: 1.5em;      
+    }
+  }
 }
 
 //LEARNING
