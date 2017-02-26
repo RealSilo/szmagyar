@@ -1,7 +1,7 @@
 - title: The Well Grounded Rubyist
   author: David A. Black
   image: well_grounded_rubyist_cover.jpg
-  description: It's a pretty amazing and detailed Ruby book which helps to get a deeper understanding of how Rails works under the hood.
+  description: It's a pretty amazing and detailed Ruby book which helps to get a deeper understanding of how Ruby works under the hood.
   link: https://www.amazon.com/Well-Grounded-Rubyist-David-Black/dp/1617291692
 
 - title: Practical Object Oriented Design in Ruby
@@ -15,3 +15,21 @@
   image: "rails_antipatterns_cover.jpg"
   description: "The book introduces the most common Rails antipatterns and explains how to avoid them. For people who are new to Rails this book will help a lot to improve their Rails skills."
   link: "https://www.amazon.com/Rails-AntiPatterns-Refactoring-Addison-Wesley-Professional/dp/0321604814"
+
+- title: Metaprogramming Ruby 2
+  author: Paolo Perrotta
+  image: "metaprogramming_ruby2_cover.jpg"
+  description: "It introduces how to leverage metaprogramming to write better Ruby code. Explanations are great and easy to understand."
+  link: "https://www.amazon.com/Metaprogramming-Ruby-Program-Like-Facets/dp/1941222129"
+
+- title: Rebuilding Rails
+  author: Noah Gibbs
+  image: "rebuilding_rails_cover.png"
+  description: "Probably the best rails book. It unfolds how Rails works under the hood by recreating a barebone version of it."
+  link: "https://rebuilding-rails.com/"
+
+- title: Grokking Algorithms
+  author: Aditya Bhargava
+  image: "grokking_algorithms_cover.jpg"
+  description: "Amazing intro to basic data structures and algorithms. Written in python with a bunch of great illustrations."
+  link: "https://www.amazon.com/Grokking-Algorithms-illustrated-programmers-curious/dp/1617292230"

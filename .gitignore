@@ -19,3 +19,4 @@
 
 # Ignore .env file
 /.env
+/log
