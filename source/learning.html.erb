@@ -9,7 +9,7 @@ title: Szilard Magyar
         <div class="row learning-intro-row">
           <div class="col-xs-12">
             <h3 class="page-name">LEARNING</h3>
-            <p>The main topics of my interest are web development, tech startups, psychology, networks (both virtual and personal) and distribution (sales and marketing). I firmly believe that all these fields are connected and technology should make people's life easier not harder.</p>
+            <p>The main topics of my interest are backend development, tech startups, psychology, blockchains and distribution (sales and marketing). I firmly believe that all these fields are connected and technology should make people's life easier not harder.</p>
 
             <p>Here is the <u><%= link_to "LIST", "https://docs.google.com/spreadsheets/d/1wZkQV6TI6sy2VqXTIVE4pA9y-jGM6m6mpaSS-TVVP-w/edit#gid=0", target: "_blank" %></u> of books, blogs and courses I've finished or planning to consume. To avoid the paradox of choice go for all the books that are rated 5+. Regardless what kind of things you are interested in reading those books will definitely help you down the road. In case of you don't want to search for them in the list I included some of the best ones on business and coding below.</p>
           </div>
@@ -20,10 +20,10 @@ title: Szilard Magyar
             <h4><u>BUSINESS BOOKS</u></h4>
           </div>
         </div>
-        <% data["business_books"].each_slice(3) do |books_for_row| %>
+        <% data['business_books'].each_slice(3) do |books_for_row| %>
           <div class="row book-row">
             <% books_for_row.each do |book| %>
-              <%= partial "book", locals: { book: book } %>
+              <%= partial 'book', locals: { book: book } %>
             <% end %>
           </div>
         <% end %>
@@ -33,11 +33,11 @@ title: Szilard Magyar
             <h4><u>CODING BOOKS</u></h4>
           </div>
         </div>
-        
-        <% data["coding_books"].each_slice(3) do |books_for_row| %>
+
+        <% data['coding_books'].each_slice(3) do |books_for_row| %>
           <div class="row book-row">
             <% books_for_row.each do |book| %>
-              <%= partial "book", locals: { book: book } %>
+              <%= partial 'book', locals: { book: book } %>
             <% end %>
           </div>
         <% end %>
